@@ -17,9 +17,10 @@ using System;
 namespace NetCoreMultiPage.Migrations
 {
     [DbContext(typeof(NetCoreMultiPageDbContext))]
-    partial class NetCoreMultiPageDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180413062143_Add_NewPersionAndNumberEntity")]
+    partial class Add_NewPersionAndNumberEntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
