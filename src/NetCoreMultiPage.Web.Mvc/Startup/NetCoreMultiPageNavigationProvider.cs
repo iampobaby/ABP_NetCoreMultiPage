@@ -45,6 +45,14 @@ namespace NetCoreMultiPage.Web.Startup
                         requiredPermissionName: PermissionNames.Pages_Roles
                     )
                 )
+                .AddItem(new MenuItemDefinition(
+                        PageNames.Persons,
+                        L("Persons"),
+                        url: "Persons",
+                        icon: "people",
+                        requiredPermissionName: PermissionNames.Pages_Roles
+                    )
+                )
                 .AddItem(
                     new MenuItemDefinition(
                         PageNames.About,

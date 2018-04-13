@@ -9,5 +9,6 @@ namespace NetCoreMultiPage.Web.Models.Users
         public IReadOnlyList<UserDto> Users { get; set; }
 
         public IReadOnlyList<RoleDto> Roles { get; set; }
+
     }
 }

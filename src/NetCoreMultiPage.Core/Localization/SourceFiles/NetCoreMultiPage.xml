@@ -2,6 +2,7 @@
 <localizationDictionary culture="en">
   <texts>
     <text name="HomePage" value="Home page" />
+    <text name="Person" value="Person" />
     <text name="About" value="About" />
     <text name="WellcomeMessage" value="Welcome to NetCoreMultiPage!" />
     <text name="FormIsNotValidMessage" value="Form is not valid. Please check and fix errors." />
