@@ -1,0 +1,1102 @@
+DEBUG 2018-04-13 11:28:58,482 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 11:28:58,516 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 11:28:58,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:58,596 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 11:28:58,732 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:28:58,732 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:28:58,732 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:28:58,732 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:28:59,226 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:28:59,742 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 11:28:59,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 11:28:59,787 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 11:28:59,792 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 11:28:59,797 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 11:28:59,829 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 11:28:59,869 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 11:28:59,869 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 11:28:59,872 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 11:28:59,873 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 11:28:59,874 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+FATAL 2018-04-13 11:29:10,679 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:7836f48c-ef48-4e82-a219-11124a2b8509
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:7836f48c-ef48-4e82-a219-11124a2b8509
+Error Number:4060,State:1,Class:11
+WARN  2018-04-13 11:29:10,681 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:7836f48c-ef48-4e82-a219-11124a2b8509
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:7836f48c-ef48-4e82-a219-11124a2b8509
+Error Number:4060,State:1,Class:11
+FATAL 2018-04-13 11:29:16,956 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at NetCoreMultiPage.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\Startup\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:7836f48c-ef48-4e82-a219-11124a2b8509
+Error Number:4060,State:1,Class:11
+DEBUG 2018-04-13 11:29:20,824 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 11:29:20,847 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 11:29:20,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:20,895 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 11:29:20,973 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:29:20,973 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:29:20,973 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:29:20,973 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:29:21,391 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:29:21,912 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 11:29:21,946 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 11:29:21,956 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 11:29:21,961 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 11:29:21,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 11:29:21,997 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 11:29:22,037 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 11:29:22,037 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 11:29:22,041 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 11:29:22,042 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+FATAL 2018-04-13 11:29:32,765 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:d4ddfbef-5a69-49d6-a98e-9e31f96f94d6
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:d4ddfbef-5a69-49d6-a98e-9e31f96f94d6
+Error Number:4060,State:1,Class:11
+WARN  2018-04-13 11:29:32,768 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:d4ddfbef-5a69-49d6-a98e-9e31f96f94d6
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 83
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:d4ddfbef-5a69-49d6-a98e-9e31f96f94d6
+Error Number:4060,State:1,Class:11
+FATAL 2018-04-13 11:29:32,844 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "NetCoreMultiPageDb"。登录失败。
+用户 'HF_Suns-PC\HF_Suns' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.<>c__DisplayClass18_0.<BeginTransaction>b__0(DatabaseFacade database)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.<>c__DisplayClass12_0`2.<Execute>b__0(DbContext c, TState s)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, Func`2 operation, Func`2 verifySucceeded, TState state)
+   at Microsoft.EntityFrameworkCore.ExecutionStrategyExtensions.Execute[TState,TResult](IExecutionStrategy strategy, TState state, Func`2 operation)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 116
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at NetCoreMultiPage.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule.PostInitialize() in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.EntityFrameworkCore\EntityFrameworkCore\NetCoreMultiPageEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 160
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 37
+   at NetCoreMultiPage.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\Startup\Startup.cs:line 101
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:d4ddfbef-5a69-49d6-a98e-9e31f96f94d6
+Error Number:4060,State:1,Class:11
+DEBUG 2018-04-13 11:30:40,643 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 11:30:40,735 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 11:30:40,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,780 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,781 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,782 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,783 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,784 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:40,787 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 11:30:40,901 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:30:40,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:30:40,901 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:30:40,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:30:41,412 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:30:42,549 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 11:30:42,587 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 11:30:42,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 11:30:42,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 11:30:42,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 11:30:42,823 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 11:30:42,872 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 11:30:42,872 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 11:30:42,875 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 11:30:42,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 11:30:42,877 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+INFO  2018-04-13 11:30:47,662 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-13 11:30:51,891 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-13 11:30:52,010 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-13 11:30:52,044 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) in 1145.6977ms
+INFO  2018-04-13 11:30:52,066 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4438.3033ms 302 
+INFO  2018-04-13 11:30:52,086 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 11:30:52,117 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 11:30:52,131 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.2046ms 200 text/html
+INFO  2018-04-13 11:30:52,320 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 11:30:52,355 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 11:30:52,357 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 11:30:52,382 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-04-13 11:30:52,394 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 11:30:52,406 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-04-13 11:30:52,418 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-04-13 11:30:52,437 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-04-13 11:30:52,442 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.3196ms 304 text/css
+INFO  2018-04-13 11:30:52,517 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.1266ms 304 application/javascript
+INFO  2018-04-13 11:30:52,533 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 169.8255ms 304 text/css
+INFO  2018-04-13 11:30:52,563 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.6122ms 304 text/css
+INFO  2018-04-13 11:30:52,666 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 11:30:52,671 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 11:30:52,707 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 11:30:52,767 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 11:30:52,795 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-04-13 11:30:52,811 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 11:30:52,815 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-04-13 11:30:52,845 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-04-13 11:30:52,871 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-04-13 11:30:52,887 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.8526ms 304 application/javascript
+INFO  2018-04-13 11:30:52,904 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 204.1815ms 304 application/javascript
+INFO  2018-04-13 11:30:52,910 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-04-13 11:30:52,922 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 385.2207ms 304 application/javascript
+INFO  2018-04-13 11:30:52,927 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 485.2956ms 304 text/css
+INFO  2018-04-13 11:30:52,934 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 248.1649ms 304 application/javascript
+INFO  2018-04-13 11:30:52,988 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 11:30:53,109 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-04-13 11:30:53,151 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 11:30:53,174 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 11:30:53,197 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 11:30:53,220 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 11:30:53,231 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-04-13 11:30:53,245 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-04-13 11:30:53,259 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-04-13 11:30:53,277 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.6278ms 304 application/javascript
+INFO  2018-04-13 11:30:53,320 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.0608ms 304 image/png
+INFO  2018-04-13 11:30:53,323 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 261.5991ms 304 application/javascript
+INFO  2018-04-13 11:30:53,338 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 241.7967ms 304 application/javascript
+INFO  2018-04-13 11:30:53,411 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-04-13 11:30:53,472 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 11:30:53,504 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 11:30:53,516 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 11:30:53,535 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 11:30:53,550 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 11:30:53,628 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-04-13 11:30:53,668 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-04-13 11:30:53,681 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-04-13 11:30:53,715 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-04-13 11:30:53,730 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 378.2692ms 304 application/javascript
+INFO  2018-04-13 11:30:53,757 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 240.7773ms 304 application/javascript
+INFO  2018-04-13 11:30:53,773 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-04-13 11:30:53,829 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 269.0211ms 304 application/javascript
+INFO  2018-04-13 11:30:53,856 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 312.1315ms 304 application/javascript
+INFO  2018-04-13 11:30:53,926 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 347.3197ms 304 application/javascript
+INFO  2018-04-13 11:30:53,932 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 385.212ms 304 application/javascript
+INFO  2018-04-13 11:30:54,169 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 11:30:54,425 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 250.7883ms 200 application/json
+INFO  2018-04-13 11:30:55,142 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523590255119  
+INFO  2018-04-13 11:30:55,174 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523590255120  
+INFO  2018-04-13 11:30:55,182 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 11:30:55,185 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 11:30:55,226 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.3818ms 200 application/javascript
+INFO  2018-04-13 11:30:55,228 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 71.1175ms 200 application/javascript
+INFO  2018-04-13 11:30:57,675 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-04-13 11:30:57,711 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-04-13 11:30:57,718 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/explorer_icons.png was not modified
+INFO  2018-04-13 11:30:57,758 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.4052ms 304 image/png
+INFO  2018-04-13 11:30:57,772 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/throbber.gif was not modified
+INFO  2018-04-13 11:30:57,781 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.1572ms 304 image/gif
+DEBUG 2018-04-13 11:31:19,646 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 11:31:19,675 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 11:31:19,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,724 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,725 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,726 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,727 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,728 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:19,731 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 11:31:19,819 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:31:19,819 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:31:19,819 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:31:19,819 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 11:31:20,250 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 11:31:20,806 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 11:31:20,842 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 11:31:20,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 11:31:20,860 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 11:31:20,865 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 11:31:20,905 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 11:31:20,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 11:31:20,948 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 11:31:20,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 11:31:20,952 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+INFO  2018-04-13 11:31:22,949 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 11:31:23,132 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 11:31:23,142 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 219.1233ms 200 text/html
+INFO  2018-04-13 11:31:23,186 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 11:31:23,186 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 11:31:23,187 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 11:31:23,188 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 11:31:23,192 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-04-13 11:31:23,192 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-04-13 11:31:23,193 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-04-13 11:31:23,194 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 11:31:23,195 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-04-13 11:31:23,195 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1063ms 304 text/css
+INFO  2018-04-13 11:31:23,195 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3687ms 304 text/css
+INFO  2018-04-13 11:31:23,195 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-04-13 11:31:23,196 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5491ms 304 application/javascript
+INFO  2018-04-13 11:31:23,196 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 11:31:23,197 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-04-13 11:31:23,197 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2882ms 304 application/javascript
+INFO  2018-04-13 11:31:23,197 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.5802ms 304 text/css
+INFO  2018-04-13 11:31:23,198 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.7103ms 304 text/css
+INFO  2018-04-13 11:31:23,198 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 11:31:23,200 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-04-13 11:31:23,200 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5586ms 304 application/javascript
+INFO  2018-04-13 11:31:23,204 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 11:31:23,210 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-04-13 11:31:23,210 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5016ms 304 application/javascript
+INFO  2018-04-13 11:31:23,215 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 11:31:23,215 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 11:31:23,216 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-04-13 11:31:23,216 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-04-13 11:31:23,216 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3804ms 304 application/javascript
+INFO  2018-04-13 11:31:23,216 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9093ms 304 application/javascript
+INFO  2018-04-13 11:31:23,225 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 11:31:23,226 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 11:31:23,227 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-04-13 11:31:23,227 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-04-13 11:31:23,227 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4755ms 304 application/javascript
+INFO  2018-04-13 11:31:23,227 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7621ms 304 application/javascript
+INFO  2018-04-13 11:31:23,229 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 11:31:23,231 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-04-13 11:31:23,231 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5312ms 304 application/javascript
+INFO  2018-04-13 11:31:23,235 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 11:31:23,235 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 11:31:23,238 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-04-13 11:31:23,238 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.9001ms 304 application/javascript
+INFO  2018-04-13 11:31:23,238 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-04-13 11:31:23,239 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.2184ms 304 application/javascript
+INFO  2018-04-13 11:31:23,244 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 11:31:23,246 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-04-13 11:31:23,246 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 11:31:23,246 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.972ms 304 application/javascript
+INFO  2018-04-13 11:31:23,248 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-04-13 11:31:23,248 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4946ms 304 application/javascript
+INFO  2018-04-13 11:31:23,254 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 11:31:23,255 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 11:31:23,256 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-04-13 11:31:23,256 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6953ms 304 application/javascript
+INFO  2018-04-13 11:31:23,256 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-04-13 11:31:23,257 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6579ms 304 image/png
+INFO  2018-04-13 11:31:23,513 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 11:31:23,743 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 230.525ms 200 application/json
+INFO  2018-04-13 11:31:24,284 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523590284281  
+INFO  2018-04-13 11:31:24,285 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 11:31:24,295 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.1688ms 200 application/javascript
+INFO  2018-04-13 11:31:24,302 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523590284280  
+INFO  2018-04-13 11:31:24,302 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 11:31:24,303 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6186ms 200 application/javascript
+INFO  2018-04-13 11:31:25,262 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-04-13 11:31:25,264 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/throbber.gif was not modified
+INFO  2018-04-13 11:31:25,264 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6545ms 304 image/gif
+INFO  2018-04-13 11:31:40,285 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:8959/iisintegration  0
+INFO  2018-04-13 11:31:40,286 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0304ms 202 
+DEBUG 2018-04-13 12:14:42,438 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 12:14:42,479 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 12:14:42,535 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,538 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,539 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,544 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:42,548 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 12:14:42,673 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:14:42,673 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:14:42,673 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:14:42,673 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:14:43,237 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:14:43,846 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 12:14:43,884 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 12:14:43,895 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 12:14:43,902 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 12:14:43,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 12:14:43,948 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 12:14:43,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 12:14:43,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 12:14:44,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 12:14:44,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 12:14:44,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 12:14:44,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 12:14:44,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 12:14:44,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 12:14:44,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 12:14:44,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 12:14:44,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+INFO  2018-04-13 12:14:46,710 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-13 12:14:47,958 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-13 12:14:48,075 [6    ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-13 12:14:48,085 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) in 378.825ms
+INFO  2018-04-13 12:14:48,100 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1455.6216ms 302 
+INFO  2018-04-13 12:14:48,138 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 12:14:48,183 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 12:14:48,201 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.0164ms 200 text/html
+INFO  2018-04-13 12:14:48,272 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 12:14:48,275 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-04-13 12:14:48,277 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.8862ms 304 application/javascript
+INFO  2018-04-13 12:14:48,288 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 12:14:48,288 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 12:14:48,288 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-04-13 12:14:48,288 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-04-13 12:14:48,289 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0096ms 304 text/css
+INFO  2018-04-13 12:14:48,289 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0583ms 304 text/css
+INFO  2018-04-13 12:14:48,289 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 12:14:48,289 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 12:14:48,290 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-04-13 12:14:48,290 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9718ms 304 text/css
+INFO  2018-04-13 12:14:48,290 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-04-13 12:14:48,290 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2452ms 304 application/javascript
+INFO  2018-04-13 12:14:48,425 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 12:14:48,426 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-04-13 12:14:48,426 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4706ms 304 text/css
+INFO  2018-04-13 12:14:48,428 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 12:14:48,429 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-04-13 12:14:48,430 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.6394ms 304 application/javascript
+INFO  2018-04-13 12:14:48,432 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 12:14:48,434 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-04-13 12:14:48,435 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2979ms 304 application/javascript
+INFO  2018-04-13 12:14:48,436 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 12:14:48,437 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-04-13 12:14:48,437 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1506ms 304 application/javascript
+INFO  2018-04-13 12:14:48,443 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 12:14:48,444 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-04-13 12:14:48,444 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1689ms 304 application/javascript
+INFO  2018-04-13 12:14:48,450 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 12:14:48,451 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-04-13 12:14:48,451 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0934ms 304 application/javascript
+INFO  2018-04-13 12:14:48,452 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 12:14:48,453 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-04-13 12:14:48,453 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0972ms 304 application/javascript
+INFO  2018-04-13 12:14:48,458 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 12:14:48,459 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-04-13 12:14:48,459 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.2267ms 304 application/javascript
+INFO  2018-04-13 12:14:48,462 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 12:14:48,463 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-04-13 12:14:48,463 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1142ms 304 application/javascript
+INFO  2018-04-13 12:14:48,466 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 12:14:48,467 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-04-13 12:14:48,467 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0526ms 304 application/javascript
+INFO  2018-04-13 12:14:48,474 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 12:14:48,476 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-04-13 12:14:48,477 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1554ms 304 application/javascript
+INFO  2018-04-13 12:14:48,477 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 12:14:48,477 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 12:14:48,478 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-04-13 12:14:48,478 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9605ms 304 application/javascript
+INFO  2018-04-13 12:14:48,478 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-04-13 12:14:48,479 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5295ms 304 application/javascript
+INFO  2018-04-13 12:14:48,565 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 12:14:48,566 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-04-13 12:14:48,566 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0183ms 304 image/png
+INFO  2018-04-13 12:14:48,792 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 12:14:49,070 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 278.0621ms 200 application/json
+INFO  2018-04-13 12:14:49,675 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523592889657  
+INFO  2018-04-13 12:14:49,676 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 12:14:49,679 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5584ms 200 application/javascript
+INFO  2018-04-13 12:14:49,680 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523592889657  
+INFO  2018-04-13 12:14:49,681 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 12:14:49,683 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.043ms 200 application/javascript
+INFO  2018-04-13 12:18:42,406 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:20368/iisintegration  0
+INFO  2018-04-13 12:18:42,407 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1376ms 202 
+DEBUG 2018-04-13 12:20:08,836 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-13 12:20:08,925 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-13 12:20:08,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Host.Startup.NetCoreMultiPageWebHostModule, NetCoreMultiPage.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,978 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:08,981 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-13 12:20:09,100 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:20:09,100 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:20:09,100 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:20:09,100 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-13 12:20:09,569 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-13 12:20:10,688 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-13 12:20:10,729 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-13 12:20:10,744 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-13 12:20:10,751 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-13 12:20:10,757 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-13 12:20:10,942 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-13 12:20:10,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-04-13 12:20:10,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-13 12:20:10,988 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-13 12:20:10,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-13 12:20:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-13 12:20:10,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+INFO  2018-04-13 12:20:14,051 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-13 12:20:18,395 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-13 12:20:18,543 [10   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-13 12:20:18,553 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) in 1108.1648ms
+INFO  2018-04-13 12:20:18,568 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4559.6135ms 302 
+INFO  2018-04-13 12:20:18,605 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 12:20:18,654 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:18,691 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.6044ms 200 text/html
+INFO  2018-04-13 12:20:18,825 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 12:20:18,873 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 12:20:18,904 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 12:20:18,929 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 12:20:19,021 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-04-13 12:20:19,030 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-04-13 12:20:19,056 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-04-13 12:20:19,072 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-04-13 12:20:19,151 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 275.4897ms 304 text/css
+INFO  2018-04-13 12:20:19,155 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 293.8063ms 304 text/css
+INFO  2018-04-13 12:20:19,162 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 306.8761ms 304 text/css
+INFO  2018-04-13 12:20:19,185 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 239.7631ms 304 text/css
+INFO  2018-04-13 12:20:19,197 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 12:20:19,287 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 12:20:19,294 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 12:20:19,314 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-04-13 12:20:19,325 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 12:20:19,360 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.6601ms 304 application/javascript
+INFO  2018-04-13 12:20:19,369 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-04-13 12:20:19,410 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-04-13 12:20:19,476 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-04-13 12:20:19,496 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 12:20:19,520 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.0596ms 304 application/javascript
+INFO  2018-04-13 12:20:19,574 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 12:20:19,591 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 249.8927ms 304 application/javascript
+INFO  2018-04-13 12:20:19,611 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-04-13 12:20:19,668 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-04-13 12:20:19,670 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 12:20:19,703 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 347.6693ms 304 application/javascript
+INFO  2018-04-13 12:20:19,727 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.5268ms 304 application/javascript
+INFO  2018-04-13 12:20:19,771 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 543.3996ms 304 application/javascript
+INFO  2018-04-13 12:20:19,816 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 12:20:19,846 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 12:20:19,870 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-04-13 12:20:19,882 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 12:20:19,906 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 12:20:19,922 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 288.2737ms 304 application/javascript
+INFO  2018-04-13 12:20:19,944 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-04-13 12:20:19,957 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-04-13 12:20:19,993 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-04-13 12:20:20,063 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-04-13 12:20:20,152 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 323.0151ms 304 application/javascript
+INFO  2018-04-13 12:20:20,166 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 12:20:20,206 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 216.3572ms 304 application/javascript
+INFO  2018-04-13 12:20:20,241 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 286.4885ms 304 application/javascript
+INFO  2018-04-13 12:20:20,250 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 214.7457ms 304 image/png
+INFO  2018-04-13 12:20:20,264 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-04-13 12:20:20,316 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 244.3465ms 304 application/javascript
+INFO  2018-04-13 12:20:20,342 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 12:20:20,349 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 12:20:20,354 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-04-13 12:20:20,359 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.5428ms 304 application/javascript
+INFO  2018-04-13 12:20:20,375 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 12:20:20,421 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-04-13 12:20:20,444 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-04-13 12:20:20,498 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 197.7408ms 304 application/javascript
+INFO  2018-04-13 12:20:20,503 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 390.1911ms 304 application/javascript
+INFO  2018-04-13 12:20:21,620 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 12:20:21,864 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 238.0489ms 200 application/json
+INFO  2018-04-13 12:20:22,616 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523593222522  
+INFO  2018-04-13 12:20:22,642 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 12:20:22,650 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523593222523  
+INFO  2018-04-13 12:20:22,668 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 12:20:22,686 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.9846ms 200 application/javascript
+INFO  2018-04-13 12:20:22,699 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.3171ms 200 application/javascript
+INFO  2018-04-13 12:20:29,549 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 12:20:29,559 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,574 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.5261ms 200 text/html
+INFO  2018-04-13 12:20:29,670 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 12:20:29,683 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 12:20:29,687 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/typography.css'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,752 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 12:20:29,777 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.slideto.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,788 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 12:20:29,814 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 12:20:29,859 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/reset.css'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,873 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.9353ms 200 text/css
+INFO  2018-04-13 12:20:29,880 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/object-assign-pollyfill.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,966 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/screen.css'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:29,991 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 232.5824ms 200 application/javascript
+INFO  2018-04-13 12:20:30,016 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 12:20:30,035 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.5418ms 200 text/css
+INFO  2018-04-13 12:20:30,105 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.1514ms 200 application/javascript
+INFO  2018-04-13 12:20:30,119 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 12:20:30,136 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.wiggle.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,144 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 319.492ms 200 text/css
+INFO  2018-04-13 12:20:30,158 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-1.8.0.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,168 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 12:20:30,180 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 12:20:30,275 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.8828ms 200 application/javascript
+INFO  2018-04-13 12:20:30,296 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery.ba-bbq.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,339 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 12:20:30,394 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/backbone-min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,414 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/handlebars-4.0.5.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,414 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 223.8355ms 200 application/javascript
+INFO  2018-04-13 12:20:30,422 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 12:20:30,465 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 183.2872ms 200 application/javascript
+INFO  2018-04-13 12:20:30,512 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/lodash.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,548 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330.5685ms 200 application/javascript
+INFO  2018-04-13 12:20:30,554 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 12:20:30,560 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 534.7513ms 200 application/javascript
+INFO  2018-04-13 12:20:30,590 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 12:20:30,624 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 12:20:30,676 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,713 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 496.0075ms 200 application/javascript
+INFO  2018-04-13 12:20:30,751 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/highlight.9.1.0.pack_extended.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,763 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,798 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 12:20:30,822 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 12:20:30,828 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 221.2279ms 200 application/javascript
+INFO  2018-04-13 12:20:30,841 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.4197ms 200 application/javascript
+INFO  2018-04-13 12:20:30,876 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/marked.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,909 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jsoneditor.min.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:30,952 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.015ms 200 application/javascript
+INFO  2018-04-13 12:20:30,976 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 12:20:31,033 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.4639ms 200 application/javascript
+INFO  2018-04-13 12:20:31,036 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/swagger-oauth.js'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:31,074 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 246.3454ms 200 application/javascript
+INFO  2018-04-13 12:20:31,181 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 679.2929ms 200 application/javascript
+INFO  2018-04-13 12:20:31,186 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 12:20:31,192 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 12:20:31,255 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 12:20:31,260 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/print.css'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:31,284 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.6098ms 200 text/css
+INFO  2018-04-13 12:20:31,297 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.334ms 200 application/json
+INFO  2018-04-13 12:20:31,329 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/logo_small.png'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:31,371 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.6861ms 200 image/png
+INFO  2018-04-13 12:20:31,655 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523593231611  
+INFO  2018-04-13 12:20:31,681 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523593231611  
+INFO  2018-04-13 12:20:31,692 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 12:20:31,718 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 12:20:31,724 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 93.2709ms 200 application/javascript
+INFO  2018-04-13 12:20:31,783 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 108.906ms 200 application/javascript
+INFO  2018-04-13 12:20:31,951 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-32x32.png  
+INFO  2018-04-13 12:20:31,978 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:32,058 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/favicon-16x16.png  
+INFO  2018-04-13 12:20:32,061 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.2128ms 200 image/png
+INFO  2018-04-13 12:20:32,074 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:32,084 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.8722ms 200 image/png
+INFO  2018-04-13 12:20:37,267 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-04-13 12:20:37,296 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/throbber.gif  
+INFO  2018-04-13 12:20:37,301 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/explorer_icons.png'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:37,345 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.8325ms 200 image/png
+INFO  2018-04-13 12:20:37,358 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/throbber.gif'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:37,369 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.3825ms 200 image/gif
+INFO  2018-04-13 12:20:59,214 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-04-13 12:20:59,280 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-13 12:20:59,354 [17   ] Core.Mvc.Internal.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-04-13 12:20:59,381 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Host.Controllers.HomeController.Index (NetCoreMultiPage.Web.Host) in 129.024ms
+INFO  2018-04-13 12:20:59,390 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 177.8218ms 302 
+INFO  2018-04-13 12:20:59,419 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/  
+INFO  2018-04-13 12:20:59,430 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/index.html'. Physical path: 'N/A'
+INFO  2018-04-13 12:20:59,582 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.9142ms 200 text/html
+INFO  2018-04-13 12:20:59,935 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.slideto.min.js  
+INFO  2018-04-13 12:20:59,965 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/reset.css  
+INFO  2018-04-13 12:20:59,989 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/typography.css  
+INFO  2018-04-13 12:21:00,027 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/object-assign-pollyfill.js  
+INFO  2018-04-13 12:21:00,048 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/typography.css was not modified
+INFO  2018-04-13 12:21:00,059 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/reset.css was not modified
+INFO  2018-04-13 12:21:00,082 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.slideto.min.js was not modified
+INFO  2018-04-13 12:21:00,101 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 379.7255ms 304 text/css
+INFO  2018-04-13 12:21:00,135 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery-1.8.0.min.js  
+INFO  2018-04-13 12:21:00,152 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 465.3177ms 304 application/javascript
+INFO  2018-04-13 12:21:00,189 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/object-assign-pollyfill.js was not modified
+INFO  2018-04-13 12:21:00,223 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 432.1636ms 304 text/css
+INFO  2018-04-13 12:21:00,249 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/screen.css  
+INFO  2018-04-13 12:21:00,277 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 570.4144ms 304 application/javascript
+INFO  2018-04-13 12:21:00,289 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.wiggle.min.js  
+INFO  2018-04-13 12:21:00,324 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/screen.css was not modified
+INFO  2018-04-13 12:21:00,358 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 210.9122ms 304 text/css
+INFO  2018-04-13 12:21:00,379 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jquery.ba-bbq.min.js  
+INFO  2018-04-13 12:21:00,385 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-1.8.0.min.js was not modified
+INFO  2018-04-13 12:21:00,387 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.wiggle.min.js was not modified
+INFO  2018-04-13 12:21:00,446 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/handlebars-4.0.5.js  
+INFO  2018-04-13 12:21:00,461 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.7203ms 304 application/javascript
+INFO  2018-04-13 12:21:00,472 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/lodash.min.js  
+INFO  2018-04-13 12:21:00,491 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/handlebars-4.0.5.js was not modified
+INFO  2018-04-13 12:21:00,504 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery.ba-bbq.min.js was not modified
+INFO  2018-04-13 12:21:00,571 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.9742ms 304 application/javascript
+INFO  2018-04-13 12:21:00,596 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.3551ms 304 application/javascript
+INFO  2018-04-13 12:21:00,635 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/lodash.min.js was not modified
+INFO  2018-04-13 12:21:00,712 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/backbone-min.js  
+INFO  2018-04-13 12:21:00,721 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.6674ms 304 application/javascript
+INFO  2018-04-13 12:21:00,731 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack.js  
+INFO  2018-04-13 12:21:00,753 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.min.js  
+INFO  2018-04-13 12:21:00,800 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/backbone-min.js was not modified
+INFO  2018-04-13 12:21:00,825 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack.js was not modified
+INFO  2018-04-13 12:21:00,838 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.min.js was not modified
+INFO  2018-04-13 12:21:00,847 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/highlight.9.1.0.pack_extended.js  
+INFO  2018-04-13 12:21:00,888 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 704.4568ms 304 application/javascript
+INFO  2018-04-13 12:21:00,965 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/highlight.9.1.0.pack_extended.js was not modified
+INFO  2018-04-13 12:21:00,979 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.9896ms 304 application/javascript
+INFO  2018-04-13 12:21:00,987 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 239.8666ms 304 application/javascript
+INFO  2018-04-13 12:21:01,002 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.2064ms 304 application/javascript
+INFO  2018-04-13 12:21:01,021 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 196.4337ms 304 application/javascript
+INFO  2018-04-13 12:21:01,086 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/jsoneditor.min.js  
+INFO  2018-04-13 12:21:01,098 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jsoneditor.min.js was not modified
+INFO  2018-04-13 12:21:01,129 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.2029ms 304 application/javascript
+INFO  2018-04-13 12:21:01,144 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/swagger-oauth.js  
+INFO  2018-04-13 12:21:01,149 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/swagger-oauth.js was not modified
+INFO  2018-04-13 12:21:01,193 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.1575ms 304 application/javascript
+INFO  2018-04-13 12:21:01,204 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/logo_small.png  
+INFO  2018-04-13 12:21:01,227 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/lib/marked.js  
+INFO  2018-04-13 12:21:01,232 [19   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/logo_small.png was not modified
+INFO  2018-04-13 12:21:01,262 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.4958ms 304 image/png
+INFO  2018-04-13 12:21:01,275 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/marked.js was not modified
+INFO  2018-04-13 12:21:01,336 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/css/print.css  
+INFO  2018-04-13 12:21:01,363 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 235.2654ms 304 application/javascript
+INFO  2018-04-13 12:21:01,407 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-04-13 12:21:01,461 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/print.css was not modified
+INFO  2018-04-13 12:21:01,490 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.4139ms 304 text/css
+INFO  2018-04-13 12:21:01,497 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.7737ms 200 application/json
+INFO  2018-04-13 12:21:02,002 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js?_=1523593261941  
+INFO  2018-04-13 12:21:02,025 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/on-complete.js?_=1523593261942  
+INFO  2018-04-13 12:21:02,031 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/on-complete.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\on-complete.js'
+INFO  2018-04-13 12:21:02,061 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.9216ms 200 application/javascript
+INFO  2018-04-13 12:21:02,066 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-04-13 12:21:02,076 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 112.6527ms 200 application/javascript
+INFO  2018-04-13 12:21:02,488 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/images/explorer_icons.png  
+INFO  2018-04-13 12:21:02,501 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/explorer_icons.png was not modified
+INFO  2018-04-13 12:21:02,518 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.4423ms 304 image/png
