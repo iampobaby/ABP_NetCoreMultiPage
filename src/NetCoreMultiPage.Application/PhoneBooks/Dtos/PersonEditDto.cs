@@ -1,4 +1,6 @@
 ﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
+using NetCoreMultiPage.PhoneBooks.Persons;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,6 +8,7 @@ using System.Text;
 
 namespace NetCoreMultiPage.PhoneBooks.Dtos
 {
+    [AutoMapTo(typeof(Person))]
     public class PersonEditDto
     {
 

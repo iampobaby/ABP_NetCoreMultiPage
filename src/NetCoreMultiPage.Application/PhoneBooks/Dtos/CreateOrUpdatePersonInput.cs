@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NetCoreMultiPage.PhoneBooks.Dtos
 {
-    class CreateOrUpdatePersonInput
+    public class CreateOrUpdatePersonInput
     {
         public PersonEditDto PersonEditDto { get; set; }
 

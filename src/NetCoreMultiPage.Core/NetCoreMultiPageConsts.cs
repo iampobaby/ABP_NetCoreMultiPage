@@ -10,5 +10,9 @@
         //change the true to false
         //多租户 非多租户
         //相应的实现代码在: D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Core\NetCoreMultiPageCoreModule.cs
+
+        public const int MaxNameLength = 50;
+        public const int MaxEmailAddressLength = 80;
+        public const int MaxAddressLength = 100;
     }
 }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NetCoreMultiPage.PhoneBooks
 {
-    interface IPersonAppService:IApplicationService
+   public interface IPersonAppService:IApplicationService
     {
         /// <summary>
         /// 获取人的相关信息,支持分页

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace NetCoreMultiPage.PhoneBooks.Dtos
 {
-    class GetPersonInput : PagedAndSortedInputDto, IShouldNormalize
+    public class GetPersonInput : PagedAndSortedInputDto, IShouldNormalize
     {
 
         //ViewModel=dto=>model

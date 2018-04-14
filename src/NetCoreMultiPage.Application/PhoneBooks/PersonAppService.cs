@@ -15,7 +15,7 @@ using NetCoreMultiPage.PhoneBooks.Persons;
 
 namespace NetCoreMultiPage.PhoneBooks
 {
-    class PersonAppService : NetCoreMultiPageAppServiceBase, IPersonAppService
+    public  class PersonAppService : NetCoreMultiPageAppServiceBase, IPersonAppService
     {
         private readonly IRepository<Person> _personResitory;
 
@@ -73,7 +73,7 @@ namespace NetCoreMultiPage.PhoneBooks
         }
         protected async Task CreatePersonAsync(PersonEditDto input)
         {
-            _personResitory.Insert(input.MapTo<Person>());
+           await _personResitory.InsertAsync(input.MapTo<Person>());
             //此处有一个警告 定义了async 但没有使用await
         }
 
