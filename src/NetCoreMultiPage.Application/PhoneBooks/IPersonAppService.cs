@@ -21,6 +21,12 @@ namespace NetCoreMultiPage.PhoneBooks
         /// </summary>
         /// <returns></returns>
         Task<PersonListDto> GetPersonByldAsync(NullableIdDto input);
+
+        /// <summary>
+        /// 通过ID获取联系人 再进行编辑
+        /// </summary>
+        /// <returns></returns>
+        Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input);
         /// <summary>
         /// 增加或更改联系人信息
         /// </summary>
