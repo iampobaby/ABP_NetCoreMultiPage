@@ -51,52 +51,40 @@
                             <th>@L("Actions")</th>
                         </tr>
                     </thead>
-
-                    <tbody>
-                        @foreach (var person in Model.Items)
+                    @foreach (var person in Model.Items)
+                    {
+                       
+                        @for (int i = 0; i < person.PhoneNumbers.Count; i++)
                         {
-                            <tr>
-                                <td>@person.Name</td>
-                                @foreach (var phone in person.PhoneNumbers)
-                                {
-                                        <td>@phone.PhoneNumberType</td>
-                                        <td>@phone.Number</td>
-                                }
-                                <td>@person.EmailAddress</td>
-                                <td>@person.Address</td>
-                                <td>@person.CreationTime</td>
-
-
-
-                                <td class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                        <i class="material-icons">menu</i>
-                                    </a>
-                                    <ul class="dropdown-menu pull-right">
-                                        <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
-                                        <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
-                                    </ul>
-                                </td>
-
-                                @*@if (person.PhoneNumbers.Count>0)
-                                {
-                                <tr>
-                                    <th>@L("PhoneNumberType")</th>
-                                    <th>@L("PhoneNumber")</th>
-
-                                </tr>
-                                    @foreach (var phone in person.PhoneNumbers)
+                            <tbody>
+                                <tr> 
+                                    @if (i == 0) { <td>@person.Name</td>}
+                                    @if (i > 0)  {<td></td>}
+                                    <td>@person.PhoneNumbers[i].PhoneNumberType</td>
+                                    <td>@person.PhoneNumbers[i].Number</td>
+                                    @if (i == 0){ <td>@person.EmailAddress</td> }
+                                    @if (i > 0)  {<td></td>}
+                                    @if (i == 0){ <td>@person.Address</td> }
+                                    @if (i > 0)  {<td></td>}
+                                    @if (i == 0) { <td>@person.CreationTime</td> }
+                                    @if (i > 0)  {<td></td>}
+                                    @if (i == 0)
                                     {
-                                        <tr>
-                                            <th>@phone.PhoneNumberType</th>
-                                            <th>@phone.Number</th>
-                                        </tr>
+                                        <td class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                                <i class="material-icons">menu</i>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
+                                                <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
+                                            </ul>
+                                        </td>
                                     }
-                                }*@
-
-                            </tr>
-                        }
-                    </tbody>
+                                    @if (i > 0)  {<td></td>}
+                                </tr>
+                            </tbody>
+                        }                       
+                    }        
                 </table>
                 <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
                     <i class="material-icons">add</i>
