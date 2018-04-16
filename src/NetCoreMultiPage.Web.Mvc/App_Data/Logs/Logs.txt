@@ -17374,3 +17374,614 @@ INFO  2018-04-15 15:36:47,791 [30   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2018-04-15 15:36:47,894 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
 INFO  2018-04-15 15:36:48,007 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
 INFO  2018-04-15 15:36:48,205 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 513.6486ms 400 text/plain
+DEBUG 2018-04-15 15:58:24,422 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-15 15:58:24,604 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-15 15:58:24,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Startup.NetCoreMultiPageWebMvcModule, NetCoreMultiPage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,651 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,653 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:24,657 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-15 15:58:24,769 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 15:58:24,769 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 15:58:24,769 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 15:58:24,769 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 15:58:25,359 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 15:58:26,603 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-15 15:58:26,647 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-15 15:58:26,663 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-15 15:58:26,669 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-15 15:58:26,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-15 15:58:26,890 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-15 15:58:26,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-04-15 15:58:26,934 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-15 15:58:26,937 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-15 15:58:26,938 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-04-15 15:58:31,674 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-04-15 15:58:35,493 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:36,054 [5    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-04-15 15:58:36,187 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-15 15:58:39,427 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+WARN  2018-04-15 15:58:43,037 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:58:43,850 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) in 7803.7743ms
+INFO  2018-04-15 15:58:43,935 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12235.0292ms 200 text/html; charset=utf-8
+INFO  2018-04-15 15:58:43,971 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 15:58:43,990 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 15:58:44,000 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:44,010 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:44,119 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 15:58:44,402 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 15:58:45,120 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 15:58:45,266 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1065.451ms
+INFO  2018-04-15 15:58:45,297 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1283.5528ms 200 application/x-javascript
+WARN  2018-04-15 15:58:45,687 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:58:45,765 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:58:45,784 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1734.4964ms
+INFO  2018-04-15 15:58:45,791 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1832.7246ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:58:45,804 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 15:58:45,819 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:45,978 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.0663ms 400 text/plain
+INFO  2018-04-15 15:58:52,429 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 15:58:52,439 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:52,867 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 15:58:54,222 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 15:58:54,238 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:58:54,239 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:58:54,243 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:58:54,253 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:58:54,663 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:58:54,865 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 2254.9132ms
+INFO  2018-04-15 15:58:54,910 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 15:58:55,004 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2448.3753ms 200 text/html; charset=utf-8
+INFO  2018-04-15 15:58:55,026 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 15:58:55,093 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8XW1f_mnNAw_2fK0NJ0LoWCZJHVm0Z3JKXqKzbC_yTc  
+INFO  2018-04-15 15:58:55,105 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:55,113 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:55,192 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 15:58:55,225 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 15:58:55,291 [26   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 15:58:55,570 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-04-15 15:58:55,674 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 178.2798ms
+INFO  2018-04-15 15:58:55,786 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 934.0448ms 200 application/x-javascript
+INFO  2018-04-15 15:58:55,942 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 654.9957ms 304 application/javascript
+WARN  2018-04-15 15:58:56,030 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:58:56,076 [26   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:58:56,097 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 968.7626ms
+INFO  2018-04-15 15:58:56,148 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1227.8534ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:58:56,201 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 15:58:56,319 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:56,343 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.9052ms 400 text/plain
+INFO  2018-04-15 15:58:58,274 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2018-04-15 15:58:58,287 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:58:58,401 [3    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-04-15 15:58:58,697 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.UsersController.Index (NetCoreMultiPage.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-15 15:59:00,625 [24   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+WARN  2018-04-15 15:59:01,175 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:01,217 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.UsersController.Index (NetCoreMultiPage.Web.Mvc) in 2905.4728ms
+INFO  2018-04-15 15:59:01,252 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2950.9433ms 200 text/html; charset=utf-8
+INFO  2018-04-15 15:59:01,472 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 15:59:01,502 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 15:59:01,516 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=TISCa1v85LEMN-54sxImJFRkCnjSAt_QY-sDi6gxXGk  
+INFO  2018-04-15 15:59:01,559 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:01,817 [24   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Users/Index.js was not modified
+INFO  2018-04-15 15:59:01,819 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:01,897 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 429.1265ms 304 application/javascript
+INFO  2018-04-15 15:59:01,910 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 15:59:02,291 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 15:59:02,508 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 15:59:02,631 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 686.9263ms
+INFO  2018-04-15 15:59:02,654 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1272.8647ms 200 application/x-javascript
+WARN  2018-04-15 15:59:02,906 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:02,939 [26   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:03,175 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1379.3667ms
+INFO  2018-04-15 15:59:03,214 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 15:59:03,221 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1791.1477ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:03,261 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:03,357 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 273.3865ms 400 text/plain
+INFO  2018-04-15 15:59:17,673 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 15:59:17,684 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:17,723 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 15:59:17,904 [6    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 15:59:17,905 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:17,906 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:17,908 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:17,909 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:18,271 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:18,304 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 601.5516ms
+INFO  2018-04-15 15:59:18,458 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 15:59:18,478 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 658.873ms 200 text/html; charset=utf-8
+INFO  2018-04-15 15:59:18,657 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 15:59:18,706 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:18,806 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:19,008 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 15:59:19,048 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 15:59:19,142 [24   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 15:59:19,224 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 433.2519ms
+INFO  2018-04-15 15:59:19,407 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 914.2239ms 200 application/x-javascript
+WARN  2018-04-15 15:59:19,726 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:19,758 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:19,817 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 950.3474ms
+INFO  2018-04-15 15:59:19,875 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1485.0505ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:19,947 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 15:59:20,007 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:20,014 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 238.0483ms 400 text/plain
+INFO  2018-04-15 15:59:23,595 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=4 application/json 
+INFO  2018-04-15 15:59:23,620 [24   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:23,687 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - ModelState is Valid
+INFO  2018-04-15 15:59:23,968 [13   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 15:59:23,996 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) in 355.5541ms
+INFO  2018-04-15 15:59:24,015 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 440.9624ms 200 application/json; charset=utf-8
+INFO  2018-04-15 15:59:54,713 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Person/CreateOrUpdatePersonAsync application/json 129
+INFO  2018-04-15 15:59:54,734 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:54,891 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-04-15 15:59:55,151 [26   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 15:59:55,176 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) in 409.7224ms
+INFO  2018-04-15 15:59:55,189 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 493.2768ms 200 application/json; charset=utf-8
+INFO  2018-04-15 15:59:55,224 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 15:59:55,243 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:55,366 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 15:59:55,687 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 15:59:55,689 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:55,689 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:55,691 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:55,691 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 15:59:56,140 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:56,173 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 920.3342ms
+INFO  2018-04-15 15:59:56,230 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 974.8522ms 200 text/html; charset=utf-8
+INFO  2018-04-15 15:59:56,446 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 15:59:56,451 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 15:59:56,461 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:56,531 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:56,643 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 15:59:56,646 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 15:59:56,720 [3    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 15:59:56,797 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 259.8836ms
+INFO  2018-04-15 15:59:56,877 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 566.9904ms 200 application/x-javascript
+WARN  2018-04-15 15:59:57,177 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 15:59:57,209 [13   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:57,273 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 15:59:57,281 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 677.1229ms
+INFO  2018-04-15 15:59:57,314 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 939.4381ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 15:59:57,329 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 15:59:57,345 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 73.3696ms 400 text/plain
+INFO  2018-04-15 16:00:02,834 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:62114/api/services/app/Person/DeletePersonAsync?id=4 application/json 
+INFO  2018-04-15 16:00:02,851 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:02,977 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.DeletePersonAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.EntityDto) - ModelState is Valid
+INFO  2018-04-15 16:00:03,285 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 16:00:03,294 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.DeletePersonAsync (NetCoreMultiPage.Application) in 420.5525ms
+INFO  2018-04-15 16:00:03,347 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 493.1703ms 200 application/json; charset=utf-8
+INFO  2018-04-15 16:00:03,455 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 16:00:03,481 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:03,534 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 16:00:03,743 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 16:00:03,745 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:03,745 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:03,747 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:03,748 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:04,343 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 16:00:04,477 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 887.4295ms
+INFO  2018-04-15 16:00:04,643 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 16:00:04,673 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1157.1887ms 200 text/html; charset=utf-8
+INFO  2018-04-15 16:00:04,689 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 16:00:04,699 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:04,708 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:04,964 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 16:00:04,968 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 16:00:04,974 [26   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 16:00:05,002 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 274.2259ms
+INFO  2018-04-15 16:00:05,008 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 562.8095ms 200 application/x-javascript
+WARN  2018-04-15 16:00:05,555 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 16:00:05,581 [11   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 16:00:05,591 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 825.2841ms
+INFO  2018-04-15 16:00:05,596 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1118.9616ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 16:00:05,610 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 16:00:05,622 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:05,629 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.1053ms 400 text/plain
+INFO  2018-04-15 16:00:08,404 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=3 application/json 
+INFO  2018-04-15 16:00:08,467 [6    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:08,518 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - ModelState is Valid
+INFO  2018-04-15 16:00:08,668 [6    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 16:00:08,693 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) in 198.8233ms
+INFO  2018-04-15 16:00:08,700 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 294.0566ms 200 application/json; charset=utf-8
+INFO  2018-04-15 16:00:14,474 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 16:00:14,492 [3    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:14,550 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 16:00:14,760 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 16:00:14,763 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:14,763 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:14,764 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:14,765 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 16:00:15,204 [3    ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 16:00:15,232 [3    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 731.7741ms
+INFO  2018-04-15 16:00:15,353 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 771.7388ms 200 text/html; charset=utf-8
+INFO  2018-04-15 16:00:15,432 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594047068918000  
+INFO  2018-04-15 16:00:15,436 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594047068918000  
+INFO  2018-04-15 16:00:15,459 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:15,468 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:15,613 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 16:00:15,616 [26   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 16:00:15,644 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 16:00:15,658 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 178.7053ms
+INFO  2018-04-15 16:00:15,793 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 396.7228ms 200 application/x-javascript
+WARN  2018-04-15 16:00:16,125 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 16:00:16,152 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 16:00:16,185 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 642.3303ms
+INFO  2018-04-15 16:00:16,192 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 831.9827ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 16:00:16,202 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 16:00:16,219 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:00:16,228 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.8635ms 400 text/plain
+INFO  2018-04-15 16:04:09,724 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=3 application/json 
+INFO  2018-04-15 16:04:09,744 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 16:04:09,790 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - ModelState is Valid
+INFO  2018-04-15 16:04:09,961 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 16:04:09,974 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) in 217.117ms
+INFO  2018-04-15 16:04:09,981 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 278.8089ms 200 application/json; charset=utf-8
+DEBUG 2018-04-15 17:20:26,543 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-04-15 17:20:26,672 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-04-15 17:20:26,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.Web.Startup.NetCoreMultiPageWebMvcModule, NetCoreMultiPage.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,741 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageWebCoreModule, NetCoreMultiPage.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,742 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageApplicationModule, NetCoreMultiPage.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,743 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.NetCoreMultiPageCoreModule, NetCoreMultiPage.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,743 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,745 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageEntityFrameworkModule, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:26,752 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-04-15 17:20:26,907 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 17:20:26,907 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 17:20:26,907 [1    ] o.Configuration.LanguageManagementConfig - Converted NetCoreMultiPage (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 17:20:26,907 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-04-15 17:20:27,592 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: NetCoreMultiPage.EntityFrameworkCore.NetCoreMultiPageDbContext, NetCoreMultiPage.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-04-15 17:20:29,088 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-04-15 17:20:29,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-04-15 17:20:29,161 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-04-15 17:20:29,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: NetCoreMultiPage
+DEBUG 2018-04-15 17:20:29,176 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-04-15 17:20:29,409 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-04-15 17:20:29,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-04-15 17:20:29,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-04-15 17:20:29,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.CreateUserDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Users.Dto.UserDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.CreateRoleDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.PermissionDto
+DEBUG 2018-04-15 17:20:29,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Roles.Dto.RoleDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos.PhoneNumberEditDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos.PhoneNumberListDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.MultiTenancy.Dto.TenantDto
+DEBUG 2018-04-15 17:20:29,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - NetCoreMultiPage.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-04-15 17:20:35,105 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2018-04-15 17:20:40,284 [13   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-04-15 17:20:40,299 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-04-15 17:20:40,326 [13   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-04-15 17:20:40,340 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-04-15 17:20:40,352 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) in 542.7171ms
+INFO  2018-04-15 17:20:40,386 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5322.8015ms 302 
+INFO  2018-04-15 17:20:40,454 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-04-15 17:20:43,898 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-04-15 17:20:47,839 [13   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-04-15 17:20:49,623 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) in 9093.2022ms
+INFO  2018-04-15 17:20:49,638 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9198.4477ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:21:19,852 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+WARN  2018-04-15 17:21:19,862 [13   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 98
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext() in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 57
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext() in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2018-04-15 17:21:19,874 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2018-04-15 17:21:19,880 [13   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2018-04-15 17:21:19,887 [13   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2018-04-15 17:21:19,894 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) in 30.094ms
+INFO  2018-04-15 17:21:19,902 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.6853ms 302 
+INFO  2018-04-15 17:21:19,964 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2018-04-15 17:21:20,024 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+INFO  2018-04-15 17:21:20,089 [20   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+INFO  2018-04-15 17:21:20,165 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) in 128.3161ms
+INFO  2018-04-15 17:21:20,248 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2018-04-15 17:21:20,261 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-04-15 17:21:20,270 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 285.3417ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:21:20,315 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-04-15 17:21:20,375 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-04-15 17:21:20,387 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2018-04-15 17:21:20,442 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-04-15 17:21:20,455 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2018-04-15 17:21:20,473 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2018-04-15 17:21:20,681 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2018-04-15 17:21:20,696 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2018-04-15 17:21:20,771 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 226.9083ms 304 text/css
+INFO  2018-04-15 17:21:20,912 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 262.6093ms 200 text/css
+INFO  2018-04-15 17:21:21,145 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2018-04-15 17:21:21,331 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:21:21,462 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.css was not modified
+INFO  2018-04-15 17:21:21,496 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:21:21,689 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 933.3474ms 200 text/css
+INFO  2018-04-15 17:21:21,878 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 567.9238ms 200 text/css
+INFO  2018-04-15 17:21:21,942 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 802.4732ms 200 text/css
+INFO  2018-04-15 17:21:21,961 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1171.1322ms 304 text/css
+INFO  2018-04-15 17:21:21,968 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:21:21,999 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:21:22,164 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2018-04-15 17:21:22,171 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2018-04-15 17:21:22,229 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 191.791ms 304 application/javascript
+INFO  2018-04-15 17:21:22,452 [21   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:21:22,470 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 816.1792ms
+INFO  2018-04-15 17:21:22,476 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1449.428ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:21:22,483 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:21:22,493 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 994.9812ms
+INFO  2018-04-15 17:21:22,562 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1528.1883ms 200 application/x-javascript
+INFO  2018-04-15 17:21:33,595 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2018-04-15 17:21:33,669 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2018-04-15 17:21:34,787 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2018-04-15 17:21:35,456 [20   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2018-04-15 17:21:35,490 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.AccountController.Login (NetCoreMultiPage.Web.Mvc) in 1859.8332ms
+INFO  2018-04-15 17:21:35,659 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-04-15 17:21:35,663 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1905.9984ms 200 application/json; charset=utf-8
+INFO  2018-04-15 17:21:35,711 [10   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:35,806 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-04-15 17:21:35,896 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) with arguments ((null)) - ModelState is Valid
+INFO  2018-04-15 17:21:36,421 [25   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+WARN  2018-04-15 17:21:38,353 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:21:38,838 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.HomeController.Index (NetCoreMultiPage.Web.Mvc) in 3118.996ms
+INFO  2018-04-15 17:21:38,883 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3333.2483ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:21:39,124 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:21:39,133 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:21:39,204 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:39,283 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:21:39,311 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:39,499 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:21:39,505 [5    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:21:39,563 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 188.921ms
+INFO  2018-04-15 17:21:39,578 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 594.3969ms 200 application/x-javascript
+WARN  2018-04-15 17:21:39,867 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:21:39,900 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:21:39,910 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 695.2817ms
+INFO  2018-04-15 17:21:39,921 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 890.4898ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:21:39,937 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:21:40,083 [26   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:40,156 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 218.8991ms 400 text/plain
+INFO  2018-04-15 17:21:41,165 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 17:21:41,179 [22   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:41,605 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 17:21:42,764 [26   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 17:21:42,778 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:21:42,779 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:21:42,783 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:21:42,787 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:21:43,583 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:21:43,685 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 2440.3084ms
+INFO  2018-04-15 17:21:43,711 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2543.7132ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:21:44,429 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:21:44,625 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8XW1f_mnNAw_2fK0NJ0LoWCZJHVm0Z3JKXqKzbC_yTc  
+INFO  2018-04-15 17:21:45,012 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:45,245 [25   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Persons/Index.js'. Physical path: 'D:\Data_source\NetCoreMultiPage\3.6.0\aspnet-core\src\NetCoreMultiPage.Web.Mvc\wwwroot\view-resources\Views\Persons\Index.js'
+INFO  2018-04-15 17:21:45,275 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:21:45,286 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1415.2407ms 200 application/javascript
+INFO  2018-04-15 17:21:45,316 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:45,319 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:21:45,380 [18   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:21:45,444 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 330.6993ms
+INFO  2018-04-15 17:21:45,458 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:21:46,247 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1619.6673ms 200 application/x-javascript
+WARN  2018-04-15 17:21:46,906 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:21:46,934 [25   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:21:47,003 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 1613.7768ms
+INFO  2018-04-15 17:21:47,044 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:21:47,102 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:21:47,123 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.7138ms 400 text/plain
+INFO  2018-04-15 17:21:47,131 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3176.413ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:22:18,916 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Person/CreateOrUpdatePersonAsync application/json 90
+INFO  2018-04-15 17:22:18,948 [18   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:19,110 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-04-15 17:22:19,223 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 17:22:19,229 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) in 259.9172ms
+INFO  2018-04-15 17:22:19,284 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 332.4056ms 200 application/json; charset=utf-8
+INFO  2018-04-15 17:22:19,304 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 17:22:19,347 [20   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:19,445 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 17:22:19,727 [5    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 17:22:19,729 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:19,730 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:19,732 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:19,734 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:20,106 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:22:20,316 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 772.6178ms
+INFO  2018-04-15 17:22:20,366 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1063.0791ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:22:20,391 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:22:20,442 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:22:20,450 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:20,534 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:22:20,543 [20   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:20,780 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:22:20,809 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:22:20,899 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 265.9056ms
+INFO  2018-04-15 17:22:20,964 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 601.76ms 200 application/x-javascript
+WARN  2018-04-15 17:22:21,072 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:22:21,094 [27   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:22:21,154 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 643.4154ms
+INFO  2018-04-15 17:22:21,187 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:22:21,193 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 859.7633ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:22:21,277 [20   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:21,292 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 158.5272ms 400 text/plain
+INFO  2018-04-15 17:22:25,500 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=15 application/json 
+INFO  2018-04-15 17:22:25,525 [5    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:25,622 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - ModelState is Valid
+INFO  2018-04-15 17:22:25,942 [5    ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 17:22:25,956 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.GetPersonForEditAsync (NetCoreMultiPage.Application) in 413.9875ms
+INFO  2018-04-15 17:22:25,963 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 462.3627ms 200 application/json; charset=utf-8
+INFO  2018-04-15 17:22:46,283 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Person/CreateOrUpdatePersonAsync application/json 101
+INFO  2018-04-15 17:22:46,304 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:46,369 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - ModelState is Valid
+INFO  2018-04-15 17:22:46,685 [28   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 17:22:46,698 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (NetCoreMultiPage.Application) in 380.3949ms
+INFO  2018-04-15 17:22:46,780 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 422.3067ms 200 application/json; charset=utf-8
+INFO  2018-04-15 17:22:46,822 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 17:22:46,841 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:46,911 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 17:22:47,227 [30   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 17:22:47,228 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:47,229 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:47,232 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:47,235 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:22:47,582 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:22:47,620 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 761.4479ms
+INFO  2018-04-15 17:22:47,808 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 874.6833ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:22:47,871 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:22:47,904 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:22:47,963 [29   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:48,036 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:48,072 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:22:48,104 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:22:48,110 [28   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:22:48,254 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 38.2957ms
+INFO  2018-04-15 17:22:48,314 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 497.7296ms 200 application/x-javascript
+WARN  2018-04-15 17:22:48,526 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:22:48,549 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:22:48,560 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 584.6067ms
+INFO  2018-04-15 17:22:48,569 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 803.8513ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:22:48,671 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:22:48,697 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:22:48,709 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 126.1783ms 400 text/plain
+INFO  2018-04-15 17:23:11,286 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:62114/api/services/app/Person/DeletePersonAsync?id=15 application/json 
+INFO  2018-04-15 17:23:11,302 [25   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:11,381 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.PhoneBooks.PersonAppService.DeletePersonAsync (NetCoreMultiPage.Application) with arguments (Abp.Application.Services.Dto.EntityDto) - ModelState is Valid
+INFO  2018-04-15 17:23:11,688 [27   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2018-04-15 17:23:11,715 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.PhoneBooks.PersonAppService.DeletePersonAsync (NetCoreMultiPage.Application) in 374.9468ms
+INFO  2018-04-15 17:23:11,728 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 432.9619ms 200 application/json; charset=utf-8
+INFO  2018-04-15 17:23:11,758 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 17:23:11,790 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:11,831 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 17:23:12,073 [20   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 17:23:12,076 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:12,076 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:12,077 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:12,078 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:12,436 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:23:12,469 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 662.7017ms
+INFO  2018-04-15 17:23:12,516 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 739.8335ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:23:12,685 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:23:12,689 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:23:12,725 [28   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:12,731 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:12,844 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:23:12,937 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:23:12,946 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:23:13,018 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 214.3467ms
+INFO  2018-04-15 17:23:13,081 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 496.7981ms 200 application/x-javascript
+WARN  2018-04-15 17:23:13,304 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:23:13,349 [31   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:23:13,367 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 617.2255ms
+INFO  2018-04-15 17:23:13,589 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 773.9347ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:23:13,600 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:23:13,617 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:13,624 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.5345ms 400 text/plain
+INFO  2018-04-15 17:23:20,839 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?skipCount=0&maxResultCount=10  
+INFO  2018-04-15 17:23:20,853 [27   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:20,907 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) with arguments (NetCoreMultiPage.PhoneBooks.Dtos.GetPersonInput) - ModelState is Valid
+INFO  2018-04-15 17:23:21,149 [20   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Persons/Index.cshtml.
+WARN  2018-04-15 17:23:21,151 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:21,152 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:21,154 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:21,154 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'NetCoreMultiPage'!
+WARN  2018-04-15 17:23:21,545 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:23:21,567 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action NetCoreMultiPage.Web.Controllers.PersonsController.Index (NetCoreMultiPage.Web.Mvc) in 706.9261ms
+INFO  2018-04-15 17:23:21,697 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 914.9896ms 200 text/html; charset=utf-8
+INFO  2018-04-15 17:23:21,826 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=8XW1f_mnNAw_2fK0NJ0LoWCZJHVm0Z3JKXqKzbC_yTc  
+INFO  2018-04-15 17:23:21,886 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636594096294128000  
+INFO  2018-04-15 17:23:21,912 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636594096294128000  
+INFO  2018-04-15 17:23:21,941 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-04-15 17:23:21,975 [30   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:22,019 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 226.6636ms 304 application/javascript
+INFO  2018-04-15 17:23:22,103 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+INFO  2018-04-15 17:23:22,106 [29   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:22,114 [30   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-04-15 17:23:22,177 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 136.1093ms
+INFO  2018-04-15 17:23:22,250 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2018-04-15 17:23:22,273 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 522.8143ms 200 application/x-javascript
+WARN  2018-04-15 17:23:22,645 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'Persons' in localization source 'NetCoreMultiPage'!
+INFO  2018-04-15 17:23:22,679 [31   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:23:22,695 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 570.0839ms
+INFO  2018-04-15 17:23:22,702 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 988.0613ms 200 application/x-javascript; charset=utf-8
+INFO  2018-04-15 17:23:22,723 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr  
+INFO  2018-04-15 17:23:22,771 [29   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-04-15 17:23:22,783 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 61.8535ms 400 text/plain

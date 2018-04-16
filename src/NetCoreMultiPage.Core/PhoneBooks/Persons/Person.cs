@@ -1,4 +1,5 @@
 ﻿using Abp.Domain.Entities.Auditing;
+using NetCoreMultiPage.PhoneBooks.PhoneNumbers;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -27,5 +28,11 @@ namespace NetCoreMultiPage.PhoneBooks.Persons
         /// </summary>
         [MaxLength(NetCoreMultiPageConsts.MaxAddressLength)]
         public string Address { get; set; }
+
+        /// <summary>
+        /// 手机号码信息
+        /// </summary>
+        public ICollection<PhoneNumber> PhoneNumbers { get; set; }
+
     }
 }

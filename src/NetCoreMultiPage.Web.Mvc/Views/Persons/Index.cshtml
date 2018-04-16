@@ -68,6 +68,21 @@
                                         <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
+                            
+                                    @if (person.PhoneNumbers.Count>0)
+                                    { 
+                                        <tr>
+                                            <th>电话类型</th>
+                                            <th>电话号码</th>
+                                        </tr>                                        
+                                    }
+                                    @foreach (var phone in person.PhoneNumbers)
+                                    {
+                                        <tr>
+                                            <th>@phone.PhoneNumberType</th>
+                                            <th>@phone.Number</th>
+                                        </tr>                                           
+                                    }                            
                             </tr>
                         }
                     </tbody>

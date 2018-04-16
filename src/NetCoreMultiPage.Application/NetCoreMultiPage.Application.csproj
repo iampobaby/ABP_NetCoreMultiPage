@@ -14,6 +14,11 @@
     <DefineConstants>FEATURE_SIGNALR_ASPNETCORE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="PhoneBooks\PhoneNumber\Person\**" />
+    <EmbeddedResource Remove="PhoneBooks\PhoneNumber\Person\**" />
+    <None Remove="PhoneBooks\PhoneNumber\Person\**" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\NetCoreMultiPage.Core\NetCoreMultiPage.Core.csproj" />
   </ItemGroup>
 </Project>
