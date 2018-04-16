@@ -5,7 +5,7 @@
 @using NetCoreMultiPage.Web.Startup
 @using NetCoreMultiPage.PhoneBooks.Dtos
 @using NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos
-
+@using NetCoreMultiPage.PhoneBooks.PhoneNumbers
 
 @model Abp.Application.Services.Dto.PagedResultDto<PersonListDto>
 @{
@@ -60,7 +60,11 @@
                                 <tr> 
                                     @if (i == 0) { <td>@person.Name</td>}
                                     @if (i > 0)  {<td></td>}
-                                    <td>@person.PhoneNumbers[i].PhoneNumberType</td>
+
+                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Mobile)    {<td>@L("Mobile Phone Number")</td>}
+                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Home)      {<td>@L("Home Phone Number")</td>}
+                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Company)   {<td>@L("Company Phone Number")</td>}
+
                                     <td>@person.PhoneNumbers[i].Number</td>
                                     @if (i == 0){ <td>@person.EmailAddress</td> }
                                     @if (i > 0)  {<td></td>}

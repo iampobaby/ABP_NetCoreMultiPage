@@ -24,17 +24,12 @@
             
 
             abp.ui.setBusy(_$modal);            //约定大于配置
-            _personService.createOrUpdatePerson({ personEditDto }).done(function () {
-
-                _$modal.modal('hide');
-                location.reload(true);
-
-
-            }).always(function () {
-                abp.ui.clearBusy(_$modal);
-
-
-                });
+            _personService.createOrUpdatePerson({ personEditDto }).done(function () { 
+                    _$modal.modal('hide');
+                    location.reload(true);
+                    }).always(function (){
+                         abp.ui.clearBusy(_$modal);
+                    });
         })
         //************   删除联系人   ************
         $('.delete-person').click(function () {

@@ -12,7 +12,7 @@ namespace NetCoreMultiPage.PhoneBooks.PhoneNumbers
         /// <summary>
         /// 移动电话
         /// </summary>
-        Mobole=1,
+        Mobile=1,
         /// <summary>
         /// 家庭电话
         /// </summary>

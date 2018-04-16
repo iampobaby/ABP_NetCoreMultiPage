@@ -18,6 +18,5 @@ namespace NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos
         /// </summary>
         public PhoneNumberType PhoneNumberType { get; set; }
 
-
     }
 }
