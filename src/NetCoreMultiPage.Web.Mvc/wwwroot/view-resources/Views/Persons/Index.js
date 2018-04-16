@@ -15,7 +15,13 @@
 
             var personEditDto = _$form.serializeFormToObject();//序列化表单为对象
 
-
+            personEditDto.PhoneNumbers =[];
+            var phoneNumber={};
+            
+            phoneNumber.Type= personEditDto.PhoneNumberType;
+            phoneNumber.Number= personEditDto.PhoneNumber;
+            personEditDto.PhoneNumbers.push(phoneNumber);
+            
 
             abp.ui.setBusy(_$modal);            //约定大于配置
             _personService.createOrUpdatePerson({ personEditDto }).done(function () {
@@ -58,8 +64,8 @@
                 $("input[name=Id]").val(data.person.id);
                 $("input[name=Name]").val(data.person.name).parent().addClass('focused');
                 $("input[name=EmailAddress]").val(data.person.emailAddress).parent().addClass('focused');
-               // $("input[name=PhoneNumber]").val(data.person.phoneNumbers[0].number).parent().addClass('focused');
-               // $("select[name=PhoneNumberType]").selectpicker('val', data.person.phoneNumbers[0].type);
+                $("input[name=PhoneNumber]").val(data.person.phoneNumbers[0].number).parent().addClass('focused');
+                $("select[name=PhoneNumberType]").selectpicker('val', data.person.phoneNumbers[0].type);
                 $("input[name=Address]").val(data.person.address).parent().addClass('focused');
             });
         });
@@ -73,6 +79,9 @@
             location.reload(true);
         }
 		
+
+
+
 
 
 		

@@ -18,10 +18,23 @@
     <text name="Password" value="密码" />
     <text name="RememberMe" value="记住我" />
     <text name="LogIn" value="登录" />
-
-
-    <text name="Persons" value="联系人" />
     <text name="LoginFailed" value="登录失败!" />
     
+    
+    <text name="Persons" value="联系人" />
+    <text name="Name" value="姓名" />
+    <text name="EmailAddress" value="邮件地址" />
+    <text name="Address" value="家庭地址" />
+    <text name="CreationTime" value="添加时间" />
+    <text name="Actions" value="编辑" />
+    <text name="PhoneNumberType" value="电话类型" />
+    <text name="PhoneNumber" value="电话号码" />
+    
+    <text name="Mobile Phone Number" value="移动电话" />
+    <text name="Home Phone Number" value="家庭电话" />
+    <text name="Company Phone Number" value="单位电话" />
+
+
+
   </texts>
 </localizationDictionary>

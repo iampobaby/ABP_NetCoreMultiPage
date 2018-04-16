@@ -4,6 +4,7 @@
 @using NetCoreMultiPage
 @using NetCoreMultiPage.Web.Startup
 @using NetCoreMultiPage.PhoneBooks.Dtos
+@using NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos
 
 
 @model Abp.Application.Services.Dto.PagedResultDto<PersonListDto>
@@ -42,6 +43,8 @@
                     <thead>
                         <tr>
                             <th>@L("Name")</th>
+                            <th>@L("PhoneNumberType")</th>
+                            <th>@L("PhoneNumber")</th>
                             <th>@L("EmailAddress")</th>
                             <th>@L("Address")</th>
                             <th>@L("CreationTime")</th>
@@ -54,9 +57,15 @@
                         {
                             <tr>
                                 <td>@person.Name</td>
+                                @foreach (var phone in person.PhoneNumbers)
+                                {
+                                        <td>@phone.PhoneNumberType</td>
+                                        <td>@phone.Number</td>
+                                }
                                 <td>@person.EmailAddress</td>
                                 <td>@person.Address</td>
                                 <td>@person.CreationTime</td>
+
 
 
                                 <td class="dropdown">
@@ -68,21 +77,23 @@
                                         <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                     </ul>
                                 </td>
-                            
-                                    @if (person.PhoneNumbers.Count>0)
-                                    { 
-                                        <tr>
-                                            <th>电话类型</th>
-                                            <th>电话号码</th>
-                                        </tr>                                        
-                                    }
+
+                                @*@if (person.PhoneNumbers.Count>0)
+                                {
+                                <tr>
+                                    <th>@L("PhoneNumberType")</th>
+                                    <th>@L("PhoneNumber")</th>
+
+                                </tr>
                                     @foreach (var phone in person.PhoneNumbers)
                                     {
                                         <tr>
                                             <th>@phone.PhoneNumberType</th>
                                             <th>@phone.Number</th>
-                                        </tr>                                           
-                                    }                            
+                                        </tr>
+                                    }
+                                }*@
+
                             </tr>
                         }
                     </tbody>
@@ -112,7 +123,7 @@
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <input type ="hidden" name="Id"/>
+                                            <input type="hidden" name="Id" />
                                             <input class="form-control" type="text" name="Name" required maxlength="@NetCoreMultiPageConsts.MaxNameLength" minlength="2">
                                             <label class="form-label">@L("Name")</label>
                                         </div>
@@ -120,10 +131,33 @@
                                 </div>
                             </div>
 
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <label>@L("PhoneNumberType")</label>
+                                        <select name="PhoneNumberType" class="from-control selectpicker">
+                                            <option value="1">@L("Mobile Phone Number")</option>
+                                            <option value="2">@L("Home Phone Number")</option>
+                                            <option value="3">@L("Company Phone Number")</option>
+                                            @*<option value="1">移动电话</option>
+                                                <option value="2">家庭电话</option>
+                                                <option value="3">单位电话</option>*@
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="row clearfix" style="margin-top:10px;">
+                                <div class="col-sm-12">
+                                    <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <input class="form-control" type="text" name="PhoneNumber" required maxlength="@NetCoreMultiPageConsts.MaxPhoneNumberLength" minlength="2">
+                                            <label class="form-label">@L("PhoneNumber")</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-
-                       
                             <div class="row clearfix" style="margin-top:10px;">
                                 <div class="col-sm-12">
                                     <div class="form-group form-float">
@@ -134,8 +168,6 @@
                                     </div>
                                 </div>
                             </div>
-                    
-
 
                             <div class="row clearfix" style="margin-top:10px;">
                                 <div class="col-sm-12">
