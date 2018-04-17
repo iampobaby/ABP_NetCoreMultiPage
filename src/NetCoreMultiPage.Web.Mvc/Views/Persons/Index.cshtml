@@ -59,19 +59,19 @@
                             <tbody>
                                 <tr> 
                                     @if (i == 0) { <td>@person.Name</td>}
-                                    @if (i > 0)  {<td></td>}
+                                    	else{<td></td>}
 
                                     @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Mobile)    {<td>@L("Mobile Phone Number")</td>}
-                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Home)      {<td>@L("Home Phone Number")</td>}
-                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Company)   {<td>@L("Company Phone Number")</td>}
-
+                                    	else if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Home)      {<td>@L("Home Phone Number")</td>}
+                                    	else if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Company)   {<td>@L("Company Phone Number")</td>}
+                                    	else {<td>@L("Company Phone Number")</td>}
                                     <td>@person.PhoneNumbers[i].Number</td>
                                     @if (i == 0){ <td>@person.EmailAddress</td> }
-                                    @if (i > 0)  {<td></td>}
+                                    	else  {<td></td>}
                                     @if (i == 0){ <td>@person.Address</td> }
-                                    @if (i > 0)  {<td></td>}
+                                    	else {<td></td>}
                                     @if (i == 0) { <td>@person.CreationTime</td> }
-                                    @if (i > 0)  {<td></td>}
+                                    	else  {<td></td>}
                                     @if (i == 0)
                                     {
                                         <td class="dropdown">
@@ -84,7 +84,7 @@
                                             </ul>
                                         </td>
                                     }
-                                    @if (i > 0)  {<td></td>}
+                                    	else  {<td></td>}
                                 </tr>
                             </tbody>
                         }                       
