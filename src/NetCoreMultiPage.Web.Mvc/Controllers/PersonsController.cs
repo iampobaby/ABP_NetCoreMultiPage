@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 using NetCoreMultiPage.Controllers;
 using NetCoreMultiPage.PhoneBooks;
-using NetCoreMultiPage.PhoneBooks.Dtos;
 using NetCoreMultiPage.PhoneBooks.Persons;
+using NetCoreMultiPage.PhoneBooks.Persons.Dtos;
 
 
 

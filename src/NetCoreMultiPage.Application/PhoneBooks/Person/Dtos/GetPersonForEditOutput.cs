@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetCoreMultiPage.PhoneBooks.Dtos
+namespace NetCoreMultiPage.PhoneBooks.Persons.Dtos
 {
     /// <summary>
     /// Person编辑的Dto

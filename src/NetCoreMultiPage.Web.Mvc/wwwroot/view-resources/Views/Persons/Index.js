@@ -18,7 +18,7 @@
             personEditDto.PhoneNumbers =[];
             var phoneNumber={};
             
-            phoneNumber.Type= personEditDto.PhoneNumberType;
+            phoneNumber.PhoneType = personEditDto.PhoneNumberType;
             phoneNumber.Number= personEditDto.PhoneNumber;
             personEditDto.PhoneNumbers.push(phoneNumber);
             

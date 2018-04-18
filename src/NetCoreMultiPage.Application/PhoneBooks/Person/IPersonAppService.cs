@@ -1,6 +1,7 @@
 ﻿using Abp.Application.Services;
 using Abp.Application.Services.Dto;
-using NetCoreMultiPage.PhoneBooks.Dtos;
+using NetCoreMultiPage.PhoneBooks.Persons;
+using NetCoreMultiPage.PhoneBooks.Persons.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;

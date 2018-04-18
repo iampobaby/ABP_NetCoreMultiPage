@@ -19,7 +19,7 @@ namespace NetCoreMultiPage.PhoneBooks.PhoneNumbers
         /// <summary>
         /// 电话类型
         /// </summary>
-        public PhoneNumberType PhoneNumberType { get; set; }
+        public PhoneNumberType PhoneType { get; set; }
         public int PersonID { get; set; }
 
         public Person Person { get; set; }

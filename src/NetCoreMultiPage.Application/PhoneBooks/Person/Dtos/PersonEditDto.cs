@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace NetCoreMultiPage.PhoneBooks.Dtos
+namespace NetCoreMultiPage.PhoneBooks.Persons.Dtos
 {
     [AutoMapTo(typeof(Person))]
     public class PersonEditDto

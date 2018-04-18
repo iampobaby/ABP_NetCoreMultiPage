@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace NetCoreMultiPage.PhoneBooks.Dtos
+namespace NetCoreMultiPage.PhoneBooks.Persons.Dtos
 {
     public class CreateOrUpdatePersonInput
     {    /// <summary>

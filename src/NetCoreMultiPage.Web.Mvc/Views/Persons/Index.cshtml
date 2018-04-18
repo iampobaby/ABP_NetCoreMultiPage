@@ -3,7 +3,8 @@
 
 @using NetCoreMultiPage
 @using NetCoreMultiPage.Web.Startup
-@using NetCoreMultiPage.PhoneBooks.Dtos
+@using NetCoreMultiPage.PhoneBooks.Persons
+@using NetCoreMultiPage.PhoneBooks.Persons.Dtos
 @using NetCoreMultiPage.PhoneBooks.PhoneNumber.Dtos
 @using NetCoreMultiPage.PhoneBooks.PhoneNumbers
 
@@ -53,27 +54,39 @@
                     </thead>
                     @foreach (var person in Model.Items)
                     {
-                       
-                        @for (int i = 0; i < person.PhoneNumbers.Count; i++)
+                        int i = 0;
+                        @foreach (var item in person.PhoneNumbers)
                         {
                             <tbody>
-                                <tr> 
-                                    @if (i == 0) { <td>@person.Name</td>}
-                                    	else{<td></td>}
-
-                                    @if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Mobile)    {<td>@L("Mobile Phone Number")</td>}
-                                    	else if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Home)      {<td>@L("Home Phone Number")</td>}
-                                    	else if(person.PhoneNumbers[i].PhoneNumberType== PhoneNumberType.Company)   {<td>@L("Company Phone Number")</td>}
-                                    	else {<td>@L("Company Phone Number")</td>}
-                                    <td>@person.PhoneNumbers[i].Number</td>
-                                    @if (i == 0){ <td>@person.EmailAddress</td> }
-                                    	else  {<td></td>}
-                                    @if (i == 0){ <td>@person.Address</td> }
-                                    	else {<td></td>}
-                                    @if (i == 0) { <td>@person.CreationTime</td> }
-                                    	else  {<td></td>}
+                                <tr>
                                     @if (i == 0)
                                     {
+                                        <td>@person.Name</td>}
+                                    else
+                                    {
+                                        <td></td>}
+
+                                    @if (item.PhoneType == PhoneNumberType.Mobile)
+                                    {
+                                        <td>@L("Mobile Phone Number")</td>}
+                                    else if (item.PhoneType == PhoneNumberType.Home)
+                                    {
+                                        <td>@L("Home Phone Number")</td>}
+                                    else if (item.PhoneType == PhoneNumberType.Company)
+                                    {
+                                        <td>@L("Company Phone Number")</td>}
+                                    else
+                                    {
+                                        <td>@L("Company Phone Number")</td>}
+                                    <td>@item.Number</td>
+
+
+                                    @if (i == 0)
+                                    {
+                                        <td>@person.EmailAddress</td> 
+                                        <td>@person.Address</td> 
+                                        <td>@person.CreationTime</td>
+
                                         <td class="dropdown">
                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                                 <i class="material-icons">menu</i>
@@ -82,13 +95,21 @@
                                                 <li><a href="#" class="waves-effect waves-block edit-person" data-person-id="@person.Id" data-toggle="modal" data-target="#PersonCreateModal"><i class="material-icons">edit</i>@L("Edit")</a></li>
                                                 <li><a href="#" class="waves-effect waves-block delete-person" data-person-id="@person.Id" data-person-name="@person.Name"><i class="material-icons">delete_sweep</i>@L("Delete")</a></li>
                                             </ul>
-                                        </td>
+                                        </td> 
                                     }
-                                    	else  {<td></td>}
+                                    else
+                                    {
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    }
+
                                 </tr>
                             </tbody>
-                        }                       
-                    }        
+                            i++;
+                        }
+                    }
                 </table>
                 <button type="button" class="btn btn-primary btn-circle waves-effect waves-circle waves-float pull-right" data-toggle="modal" data-target="#PersonCreateModal">
                     <i class="material-icons">add</i>

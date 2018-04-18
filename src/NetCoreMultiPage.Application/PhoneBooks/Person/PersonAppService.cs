@@ -10,8 +10,8 @@ using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
 using Abp.UI;
 using Microsoft.EntityFrameworkCore;
-using NetCoreMultiPage.PhoneBooks.Dtos;
 using NetCoreMultiPage.PhoneBooks.Persons;
+using NetCoreMultiPage.PhoneBooks.Persons.Dtos;
 
 namespace NetCoreMultiPage.PhoneBooks
 {
